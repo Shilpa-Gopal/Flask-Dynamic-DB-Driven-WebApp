@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "repl-nix-flask-dynamic-db-driven-webapp"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "repl_nix_flask_dynamic_db_driven_webapp"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
